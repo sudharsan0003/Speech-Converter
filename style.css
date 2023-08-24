@@ -77,3 +77,72 @@ select {
   border-radius: 35px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  textarea {
+    width: 250px;
+    height: 250px;
+    background: #4a42dede;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 6px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  textarea::placeholder {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .selector {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  button {
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+  }
+  button img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .selector {
+    display: flex;
+  }
+  select {
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 30px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+}
